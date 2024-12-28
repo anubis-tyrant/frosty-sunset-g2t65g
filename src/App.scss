@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+#outerFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  // max-width: 80%;
+
+  h1 {
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 35rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}

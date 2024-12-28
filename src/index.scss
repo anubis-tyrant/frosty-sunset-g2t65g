@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+}
+
+.flex-x-center {
+    justify-content: center;
+}
+
+.flex-y-center {
+    align-items: center;
+}
+
+.flex-center {
+    @extend .flex-x-center;
+    @extend .flex-y-center;
+}
+
+.flex-direction-x {
+    flex-direction: row;
+}
+
+.flex-direction-y {
+    flex-direction: column;
+}
+
+button, input {
+    font-size: inherit;
+}

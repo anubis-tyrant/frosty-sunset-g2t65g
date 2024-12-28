@@ -1,0 +1,30 @@
+#searchBarInput {
+  margin: 1rem 0 1rem 0;
+  border: 1.6px solid #b13939;
+  border-radius: 15px;
+  padding: 4px 0 4px 0.7rem;
+
+  &:focus {
+    outline: 0;
+    box-shadow: inset 4px 12px 20px -10px #AA8A7E;
+  }
+
+}
+
+/* From Uiverse.io by SteveBloX */
+#searchButton {
+  width: 100px;
+  height: 30px;
+  border: 3px solid #e42c2c;
+  border-radius: 45px;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+
+  &:hover {
+    background: #e42c2c;
+    color: white;
+    // font-size: 1.5em;
+  }
+}
